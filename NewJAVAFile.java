@@ -1,16 +1,15 @@
 package com.module;
 
-public class Account {
+public class HELLO {
 	@Override
 	public String toString() {
 		return "Account [accountNo=" + accountNo + ", balance=" + balance + "]";
 	}
-	String accountNo;
 	int balance;
 	public String getAccountNo() {
 		return accountNo;
 	}
-	public void setAccountNo(String accountNo) {
+	public static void setAccountNo(String accountNo) {
 		this.accountNo = accountNo;
 	}
 	public int getBalance() {
